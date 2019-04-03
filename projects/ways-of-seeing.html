@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Ways of Seeing, digitally: a prototype. - Yehia Abouseif</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="../styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="/images/icon.ico">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <style type="text/css">
+.preview {
+  set the width you want here. This will automagically limit the width of the anchors too;
+}
+
+/*all anchors in this ul*/
+.preview a {
+    width: 100%; /*this Haslayout trigger taking the place of zoom and therefore passes the validator, if it matters. Width is already naturally 100% by default anyway so we haven't changed anything except trigger Haslayout for IE*/
+    position:relative;
+    text-decoration:none;
+}
+/*all images inside boat ul*/
+.preview img {
+    position: fixed;
+    display: block; /*abso-position is already block context; you only need this line if IE is squirrely without it. Otherwise, take this line out*/
+    margin-left:-9999px; /*IE likes margins better than "left" for some reason*/
+    top:10%;
+    left: 0; /*but set a left and top for stability*/
+    z-index: -900;
+    width: 90%;
+}
+
+.preview a:hover, .preview a:focus {
+}
+
+.preview a:hover img, .preview a:focus img {
+    margin-left: 5%; /*set the image where you want it on hover/focus of anchor*/
+}
+
+        </style>
+
+    </head>
+    <body id="top"><!-- Start of StatCounter Code -->
+
+<script type="text/javascript">
+sc_project=862958;
+sc_invisible=1;
+sc_partition=3;
+sc_security="4b79b18c";
+</script>  
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c4.statcounter.com/862958/0/4b79b18c/1/" alt="free counter statistics" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+        <header><h1 class="site-name"><a href="index.html">Yehia Abouseif</a></h1>
+            <nav><ul>
+                <li><a href="projects.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+<!--                <li><a href="http://jarrettslibrary.tumblr.com">Library</a></li>-->
+                <li><a href="https://www.are.na/yehia-abouseif-h6x9t8v9hx4">Archive</a></li>
+                                <li><a href="https://www.linkedin.com/in/yehiaabouseif/">LinkedIn <i class="far fa-external-link-alt"></i></a></li>
+             </ul></nav></header>
+
+
+
+<div id="container">
+          <div class="object">
+        <div class="project"><h4>Strategy is your Words by Mark Pollard</h4>
+            <p>Mark Pollard helps leaders, marketers, and agencies get out of their heads and into the wild using a combination of training, strategy, and writing. He needed a new website to house his essays, resources, and podcast and wanted something that felt both literary and quirky. I designed and developed a simple, typographic-led website that put Mark's content, blending clean design and hand-drawn elements.</p>
+        </div>
+            <div class="type">
+                <ul>
+                
+                <li>Art Direction</li>
+                
+                <li>Web Design</li>
+                
+    </ul></div>
+            <div class="year">2018</div>
+    </div>
+
+<div class="images clearfix">
+    <p><img src="http://twenty-six.design/images/mark-pollard-01.png">
+<img src="http://twenty-six.design/images/mark-pollard-02.png">
+<img src="http://twenty-six.design/images/mark-pollard-03.png"></p>
+
+<div class="images-left"><img src="http://twenty-six.design/images/mark-pollard-04.png"></div>
+<div class="images-right"><img src="http://twenty-six.design/images/mark-pollard-07.png"></div>
+
+
+
+    <section class="clear"></section>
+
+<p class="to-top"><a href="#top">↑</a></p>
+        </div>
+
+
+    </div>
+
+        <footer><div class="left"><p>&copy <script language="javascript" type="text/javascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+            </script> Yehia Abouseif.</p></div>
+
+    <div class="right"><p><a href="mailto:yehia.abouseif@yahoo.com">Email</a> | <a href="http://www.twitter.com/yehiaabouseif">Twitter</a> | <a href="http://www.instagram.com/yabouseif">Instagram</a></p></div>
+    </footer>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+                <script>
+            $(".images .to-top a").click(function(event) {
+                event.preventDefault();
+                $("body,body").animate({scrollTop:$(this.hash).offset().top}, 400);
+            });
+        </script>
+    </body>
+</html>
