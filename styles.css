@@ -215,7 +215,16 @@ nav li:first-child {
   border-bottom: none;
 }
 .project p a {
-  font-weight: 700;
+  font-family: jubilat-thin, serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.project p a:hover {
+  font-family: jubilat-thin, serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #ff0000;
 }
 
 /*----------- PROFILE --------------*/
