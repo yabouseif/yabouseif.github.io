@@ -368,7 +368,7 @@ article a {
 }
 article a:hover {
   color: red;
-  border-bottom: 0.5px #ff0000 solid;
+  border-bottom: 0.5px black solid;
 }
 article blockquote {
   padding-left: 2em;
