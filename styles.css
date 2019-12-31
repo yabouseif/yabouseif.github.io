@@ -80,7 +80,7 @@ ul {
 header {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   border-top: 1px #ff0000 solid;
   padding: 15px 50px 50px 50px;
@@ -98,7 +98,7 @@ header {
 header h1 {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   color: #000000;
@@ -108,14 +108,14 @@ header h1 {
 nav {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   width: 50%;
 }
 nav li {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal; list-style: none inside;
   display: inline;
   padding-left: 30px;
@@ -123,7 +123,7 @@ nav li {
 nav li:first-child {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   padding-left: 0px;
   margin-left: 0px;
