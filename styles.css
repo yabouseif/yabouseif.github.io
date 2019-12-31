@@ -363,10 +363,11 @@ article h4 {
 article a {
   font-family: jubilat, serif;
   font-size: 20px;
+  color: red;
   border-bottom: 0.5px #ff0000 solid;
 }
 article a:hover {
-  color: red;
+  color: black;
 }
 article blockquote {
   padding-left: 2em;
