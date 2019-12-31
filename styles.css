@@ -40,7 +40,7 @@
 body {
   font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 16px;
   color: #000000;
@@ -78,6 +78,10 @@ ul {
 }
 /*----------- HEADER --------------*/
 header {
+  font-family: jubilat, serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-style: normal;
   border-top: 1px #ff0000 solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
@@ -89,13 +93,12 @@ header {
   padding-bottom: 80px;
   padding-top: 30px;
   padding-right: 50px;
-  font-weight: 700;
   width: auto;
 }
 header h1 {
-  font-family: jubilat-thin, serif;
+  font-family: jubilat, serif;
   letter-spacing: 0.5px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 16px;
   color: #000000;
@@ -103,14 +106,25 @@ header h1 {
   margin-right: 22px;
 }
 nav {
+  font-family: jubilat, serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-style: normal;
   width: 50%;
 }
 nav li {
-  list-style: none inside;
+  font-family: jubilat, serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-style: normal; list-style: none inside;
   display: inline;
   padding-left: 30px;
 }
 nav li:first-child {
+  font-family: jubilat, serif;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-style: normal;
   padding-left: 0px;
   margin-left: 0px;
 }
@@ -230,7 +244,7 @@ border-top: 1px solid #ff0000;
   padding-top: 0px;
 }
 .profile_section h4 {
-  font-family:  jubilat-thin, serif;
+  font-family:  jubilat, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;-webkit-flex: 1;
@@ -246,6 +260,7 @@ border-top: 1px solid #ff0000;
   font-size: 16px;
       line-height: 1.6em;
   color: #000000;
+  text-decoration: none;
   padding-bottom: 0px;
   margin-right: 50px;
   -webkit-flex: 3;
@@ -260,10 +275,11 @@ border-top: 1px solid #ff0000;
   font-style: normal;
   font-size: 16px;
   color: #000000;
-  border-bottom: 0.5px black solid;
+  text-decoration: none;
+  border-bottom: 0px black solid;
 }
 .text article a:hover {
-  border-bottom: 0.5px #ff0000 solid;
+  border-bottom: 0.15px #ff0000 solid;
   color: red;
 }
 .profile sidebar {
@@ -273,7 +289,7 @@ border-top: 1px solid #ff0000;
   margin-left: 50px;
 }
 .profile sidebar h4 {
-    font-family:  jubilat-thin, serif;
+    font-family:  jubilat, serif;
     letter-spacing: 0.5px;
     font-weight: 400;
   font-style: normal;
@@ -445,6 +461,10 @@ figcaption a:hover {
 }
 /*----------- FOOTER --------------*/
 footer {
+  font-family: jubilat, jubilat-thin, serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-style: normal;
   border-top: 1px #ff0000 solid;
   padding: 15px 50px 50px 50px;
   display: -webkit-flex;
