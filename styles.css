@@ -8,7 +8,7 @@
   color: #000000;
 }
 .serif {
-  font-family: Baskerville, serif;
+  font-family: jubilat, serif;
   font-size: 20px;
   line-height: 1.6em;
 }
@@ -337,7 +337,7 @@ border-top: 1px solid #ff0000;
   width: 55%;
 }
 article {
-  font-family: Baskerville, serif;
+  font-family: jubilat, serif;
   font-size: 20px;
   line-height: 1.6em;
 }
@@ -361,7 +361,7 @@ article h4 {
   font-size: 20px;
 }
 article a {
-  font-family: Baskerville, serif;
+  font-family: jubilat, serif;
   font-size: 20px;
   border-bottom: 0.5px #ff0000 solid;
 }
