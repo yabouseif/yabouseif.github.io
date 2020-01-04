@@ -210,6 +210,13 @@ nav li:first-child {
   padding-left: 15px;
   float: right;
   box-sizing: border-box;
+
+}
+.images-portrait {
+  width: 25%;
+  padding-left: 15px;
+  float: right;
+  box-sizing: border-box;
 }
 .images blockquote {
   font-size: 36px;
