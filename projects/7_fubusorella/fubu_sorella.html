@@ -8,7 +8,10 @@
         <link rel="stylesheet" href="https://use.typekit.net/pdo6xjz.css">
         <link rel="icon" type="image/png" href="/images/icon.ico">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <style type="text/css">
+        <style 
+
+
+        type="text/css">
 .preview {
   set the width you want here. This will automagically limit the width of the anchors too;
 }
@@ -31,6 +34,23 @@
 }
 
 .preview a:hover, .preview a:focus {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .preview a:hover img, .preview a:focus img {
