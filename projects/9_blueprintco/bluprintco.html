@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Bluprint + Co - Yehia Abouseif</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="/styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pdo6xjz.css">
+        <link rel="icon" type="image/png" href="/images/icon.ico">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style 
+
+
+        type="text/css">
+.preview {
+  set the width you want here. This will automagically limit the width of the anchors too;
+}
+
+/*all anchors in this ul*/
+.preview a {
+    width: 100%; /*this Haslayout trigger taking the place of zoom and therefore passes the validator, if it matters. Width is already naturally 100% by default anyway so we haven't changed anything except trigger Haslayout for IE*/
+    position:relative;
+    text-decoration:none;
+}
+/*all images inside boat ul*/
+.preview img {
+    position: fixed;
+    display: block; /*abso-position is already block context; you only need this line if IE is squirrely without it. Otherwise, take this line out*/
+    margin-left:-9999px; /*IE likes margins better than "left" for some reason*/
+    top:10%;
+    left: 0; /*but set a left and top for stability*/
+    z-index: -900;
+    width: 90%;
+}
+
+.preview a:hover, .preview a:focus {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.preview a:hover img, .preview a:focus img {
+    margin-left: 5%; /*set the image where you want it on hover/focus of anchor*/
+}
+
+.mySlides {display:none;}
+
+        </style>
+
+    </head>
+    <body id="top">
+        
+        <header><h1 class="site-name"><a href="../../index.html">Yehia Abouseif</a></h1>
+            <nav><ul>
+                <li><a href="../../projects.html">Work</a></li>
+                <li><a href="../../about.html">About</a></li>
+<!--                <li><a href="http://jarrettslibrary.tumblr.com">Library</a></li>-->
+                <li><a href="https://www.are.na/yehia-abouseif-h6x9t8v9hx4">Archive</a></li>
+                                <li><a href="https://www.linkedin.com/in/yehiaabouseif/">LinkedIn <i class="far fa-external-link-alt"></i></a></li>
+             </ul></nav></header>
+
+<div id="container">
+          <div class="object">
+        <div class="project"><h4>Blueprint + Co</h4>
+            <p>    Part of my responsibilities at the Shark Group was constructing brand decks for clients. The depth would range depending on the purpose, a long and detailed brand deck would be designed for the client themselves, and sometimes a condensed version would also be created to be used as a reference for future clients the company would venture out to. These are branding visuals and mockups used in a brand deck I build for Blueprint + Co, a coworking space in midtown, Manhattan. </p>
+        </div>
+            <div class="type">
+                <ul>
+                
+                <li>Design</li>
+                
+                <li>Branding</li>
+
+                
+    </ul></div>
+            <div class="year">2019</div>
+    </div>
+
+<div class="images clearfix">
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="blueprint_bg_1.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_2.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_3.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_4.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_5.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_6.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_7.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_8.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_9.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_10.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_11.jpg" style="width:100%">
+  <img class="mySlides" src="blueprint_bg_12.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<p class="to-top"><a href="#top">↑</a></p>
+        </div>
+
+
+    </div>
+
+        <footer><div class="left"><p>&copy <script language="javascript" type="text/javascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+            </script> Yehia Abouseif.</p></div>
+
+    <div class="right"><p><a href="mailto:yehia.abouseif@yahoo.com">Email</a> | <a href="http://www.twitter.com/yehiaabouseif">Twitter</a> | <a href="http://www.instagram.com/yabouseif">Instagram</a></p></div>
+    </footer>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+                <script>
+            $(".images .to-top a").click(function(event) {
+                event.preventDefault();
+                $("body,body").animate({scrollTop:$(this.hash).offset().top}, 400);
+            });
+        </script>
+    </body>
+</html>
