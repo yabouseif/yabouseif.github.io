@@ -149,6 +149,51 @@ nav li:first-child {
 .intro a:hover {
   border-bottom: 3px solid red;
 }
+
+.display {
+  width: auto;
+  text-align: left;
+  color: black;
+  padding: 15px 0px 0px 0px;
+}
+
+.display img {
+  width: 100%;
+  align-self: center;
+  display: block;
+  max-height: 50%;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+}
+.display p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.display-left {
+  width: 40%;
+  padding-right: 15px;
+  float: left;
+  box-sizing: border-box;
+ 
+
+}
+.display-right {
+  width: 50%;
+  padding-left: 15px;
+  float: right;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  padding: 50px;
+
+}
+
+.display-left:hover  {
+  border: black;
+ 
+
+}
 /*----------- PROJECTS --------------*/
 .object {
   border-top: 1px #ff0000 solid;
