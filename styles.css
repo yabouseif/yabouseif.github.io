@@ -78,7 +78,7 @@ ul {
 }
 /*----------- HEADER --------------*/
 header {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
@@ -94,9 +94,11 @@ header {
   padding-top: 30px;
   padding-right: 50px;
   width: auto;
+  font-size: 25px;
+
 }
 header h1 {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
@@ -104,29 +106,37 @@ header h1 {
   color: #000000;
   width: 50%;
   margin-right: 22px;
+  font-size: 25px;
+
 }
 nav {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
   width: 50%;
+  font-size: 25px;
+
 }
 nav li {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal; list-style: none inside;
   display: inline;
   padding-left: 30px;
+  font-size: 25px;
+
 }
 nav li:first-child {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
   padding-left: 0px;
   margin-left: 0px;
+  font-size: 25px;
+
 }
 .far {
     color: rgba(0,0,0,.3);
