@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 .links:hover {
-  border-bottom: 0.25px black solid;
+  text-decoration: none;
 }
 .textbox {
   border-top: 1px #ff0000 solid;
@@ -38,11 +38,11 @@
   margin: 0px;
 }
 body {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 25px;
   color: #000000;
   background: #FFFFFF;
 }
@@ -50,17 +50,15 @@ p {
   padding-bottom: 15px;
 }
 a {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 25px;
   color: #000000;
   text-decoration: none;
 }
-a:hover {
-  border-bottom: 0.25px black solid;
-}
+
 a:img {
   border-bottom: 0px;
 }
@@ -126,6 +124,12 @@ nav li {
   font-size: 25px;
 
 }
+
+nav li a:hover {
+ color: red;
+ text-decoration: none;
+  }
+
 nav li:first-child {
   font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
@@ -535,7 +539,7 @@ figcaption a:hover {
 }
 /*----------- FOOTER --------------*/
 footer {
-  font-family: jubilat, jubilat-thin, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
