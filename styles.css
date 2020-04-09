@@ -4,7 +4,7 @@
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
   color: #000000;
 }
 .serif {
@@ -17,7 +17,7 @@
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
   color: #000000;
   text-decoration: none;
 }
@@ -221,12 +221,12 @@ nav li:first-child {
 
 .object p{
   font-family: jubilat-thin, serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .object p a{
   font-family: jubilat-thin, serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .first {
@@ -338,20 +338,20 @@ border-top: 1px solid #ff0000;
   padding-top: 0px;
 }
 .profile_section h4 {
-  font-family:  jubilat, serif;
+  font-family:  jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;-webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   width: 25%;
-    font-size: 16px;
+    font-size: 17px;
 }
 .text article {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
       line-height: 1.6em;
   color: #000000;
   text-decoration: none;
@@ -363,11 +363,11 @@ border-top: 1px solid #ff0000;
   width: 50%;
 }
 .text article a {
-  font-family:  jubilat, serif;
+  font-family:  jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
   color: #ff0000;
   text-decoration: none;
   border-bottom: 0px black solid;
@@ -387,7 +387,7 @@ border-top: 1px solid #ff0000;
     letter-spacing: 0.5px;
     font-weight: 400;
   font-style: normal;
-    font-size: 16px;
+    font-size: 17px;
 }
 .profile sidebar li {
   list-style: none inside;
@@ -395,7 +395,7 @@ border-top: 1px solid #ff0000;
       letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
     line-height: 1.3em;
 }
 .profile sidebar a {
@@ -403,7 +403,7 @@ border-top: 1px solid #ff0000;
     letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 17px;
   color: #000000;
   border-bottom: 0px black solid;
 }
