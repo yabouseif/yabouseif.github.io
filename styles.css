@@ -256,6 +256,8 @@ nav li:first-child {
 }
 .year {
   width: 25%;
+  font-family: jubilat-thin, serif;
+  font-size: 25px;
 }
 
 .images {
