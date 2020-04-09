@@ -383,11 +383,11 @@ border-top: 1px solid #ff0000;
   margin-left: 50px;
 }
 .profile sidebar h4 {
-    font-family:  jubilat, serif;
+    font-family:  jubilat-thin, serif;
     letter-spacing: 0.5px;
     font-weight: 400;
   font-style: normal;
-    font-size: 17px;
+    font-size: 23px;
 }
 .profile sidebar li {
   list-style: none inside;
