@@ -248,6 +248,8 @@ nav li:first-child {
 }
 .type {
   width: 25%;
+  font-family: jubilat-thin, serif;
+  font-size: 25px;
 }
 .year {
   width: 25%;
