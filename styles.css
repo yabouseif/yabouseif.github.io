@@ -38,11 +38,11 @@
   margin: 0px;
 }
 body {
-  font-family: jubilat, serif;
+  font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 25px;
   color: #000000;
   background: #FFFFFF;
 }
@@ -54,7 +54,7 @@ a {
   letter-spacing: 0.5px;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 25px;
   color: #000000;
   text-decoration: none;
 }
@@ -220,6 +220,11 @@ nav li:first-child {
 }
 
 .object p{
+  font-family: jubilat, serif;
+  font-size: 16px;
+}
+
+.object ul{
   font-family: jubilat, serif;
   font-size: 16px;
 }
