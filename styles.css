@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 .links:hover {
-  border-bottom: 0.5px black solid;
+  border-bottom: 0.25px black solid;
 }
 .textbox {
   border-top: 1px #ff0000 solid;
@@ -59,7 +59,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  border-bottom: 1px black solid;
+  border-bottom: 0.25px black solid;
 }
 a:img {
   border-bottom: 0px;
@@ -101,8 +101,6 @@ header h1 {
   font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
   color: #000000;
   width: 50%;
   margin-right: 22px;
@@ -113,7 +111,7 @@ nav {
   font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-style: normal;
+  color: red;
   width: 50%;
   font-size: 25px;
 
@@ -122,8 +120,8 @@ nav li {
   font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-style: normal; list-style: none inside;
-  display: inline;
+  font-style: thin; list-style: none inside;
+  display: inline-block;
   padding-left: 30px;
   font-size: 25px;
 
@@ -132,7 +130,7 @@ nav li:first-child {
   font-family: jubilat-thin, serif;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-style: normal;
+  color: red;
   padding-left: 0px;
   margin-left: 0px;
   font-size: 25px;
@@ -433,7 +431,7 @@ article a {
 }
 article a:hover {
   color: red;
-  border-bottom: 0.5px black solid;
+  border-bottom: 0.25px black solid;
 }
 article blockquote {
   padding-left: 2em;
@@ -476,7 +474,7 @@ figcaption a {
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
-  border-bottom: 0.5px #ff0000 solid;
+  border-bottom: 0.25px #ff0000 solid;
 }
 figcaption a:hover {
   color: red;
@@ -514,7 +512,7 @@ figcaption a:hover {
   font-style: normal;
   font-size: 16px;
   color: #000000;
-  border-bottom: 0.5px #ff0000 solid;
+  border-bottom: 0.25px #ff0000 solid;
   color: rgba(0, 0, 0, 0.5);
 }
 .notes a:hover {
